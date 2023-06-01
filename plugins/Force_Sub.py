@@ -44,8 +44,8 @@ async def not_subscribed(_, client, message):
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def forces_sub(client, message):
-    buttons = [[InlineKeyboardButton(text="📢 Join Update Channel 📢", url=f"https://t.me/{Config.FORCE_SUB}") ]]
-    text = "**Sᴏʀʀy Dᴜᴅᴇ Yᴏᴜ'ʀᴇ Nᴏᴛ Jᴏɪɴᴇᴅ My Cʜᴀɴɴᴇʟ 😐. Sᴏ Pʟᴇᴀꜱᴇ Jᴏɪɴ Oᴜʀ Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Cᴄᴏɴᴛɪɴᴜᴇ**"
+    buttons = [[InlineKeyboardButton(text="🌟 Join Update Channel 🌟", url=f"https://t.me/{Config.FORCE_SUB}") ]]
+    text = "𝖯𝗅𝖾𝖺𝗌𝖾 𝗃𝗈𝗂𝗇 𝗆𝗒 𝗎𝗉𝖽𝖺𝗍𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗍𝗈 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖻𝗈𝗍! 𝖮𝗇𝗅𝗒 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗌𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾𝗋𝗌 𝖼𝖺𝗇 𝗎𝗌𝖾 𝗍𝗁𝖾 𝖻𝗈𝗍"
     try:
         user = await client.get_chat_member(Config.FORCE_SUB, message.from_user.id)    
         if user.status == enums.ChatMemberStatus.BANNED:                                   
