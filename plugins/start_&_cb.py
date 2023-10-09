@@ -38,7 +38,7 @@ async def start(client, message):
         ],[
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],[
-        InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/RzxBotz')
+        InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/RzxBots')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -58,7 +58,7 @@ async def cb_handler(client, query: CallbackQuery):
                 ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/RzxBotz')
+                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/RzxBots')
             ]])
         )
     elif data == "help":
