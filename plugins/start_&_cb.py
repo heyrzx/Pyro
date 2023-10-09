@@ -36,11 +36,9 @@ async def start(client, message):
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton("ʜᴇʟᴩ", callback_data='help')
         ],[
-        InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/Hell_Botz'),
-        InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/Cine_Paradize')
+        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],[
-        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='dev')
+        InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/RzxBotz')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -58,11 +56,9 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup([[
                 InlineKeyboardButton("ʜᴇʟᴩ", callback_data='help')
                 ],[
-                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/Hell_Botz'),
-                InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/Cine_Paradize')
+                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='dev')
+                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/RzxBotz')
             ]])
         )
     elif data == "help":
