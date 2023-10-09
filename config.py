@@ -54,7 +54,7 @@ I am a powerful rename bot! custom thumbnail and caption features.
 Click help button to know more about me</b>"""
 
     ABOUT_TXT = """○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : {}
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/hell_botz'>˹ʜᴇʟʟ ʙᴏᴛᴢ˼</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/rzxbots'>˹ʀᴢx ʙᴏᴛᴢ˼</a>
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href='https://docs.pyrogram.org/'>ᴩʏʀᴏɢʀᴀᴍ</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href='https://www.python.org/download/releases/3.0/'>ᴩyᴛʜᴏɴ 3</a>
 ○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏDB</a>
